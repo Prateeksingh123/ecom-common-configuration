@@ -14,3 +14,7 @@ microservice:
     endpoints:
       fetchUserById:
         uri: http://USER-SERVICE/users/
+
+logging:
+  file:
+    name: /Users/prate/OneDrive/Desktop/dev-logs/ecom.log
